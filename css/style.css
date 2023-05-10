@@ -1,0 +1,750 @@
+/* --------------- ANIMATIONS --------------- */
+
+@keyframes light {
+    0% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    49% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    50% {
+        background: url(../content/light2.png) center no-repeat;
+    }
+
+    51% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    52% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    55% {
+        background: url(../content/light2.png) center no-repeat;
+    }
+
+    73% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    75% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    77% {
+        background: url(../content/light2.png) center no-repeat;
+    }
+
+    79% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+
+    100% {
+        background: url(../content/light2-1.png) center no-repeat;
+    }
+}
+
+/* ------------------- GENERAL SETTINGS ------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box */
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #ededed url(../content/fundoPreto.png) top repeat-x;
+    background-size: 145px;   
+    font-family: 'Magra', sans-serif;
+    padding-top: 10px;
+}
+
+#container{
+    max-width: 100vw;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 38px;
+    letter-spacing: 2.5px;
+}
+
+/* ------------------- HEADER ------------------- */
+
+/* FIRST LINE */
+
+header{
+    color: white;
+}
+
+#first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 135px;
+    width: 100%;
+}
+
+
+#first-line .sub-menu{
+    width: 240px;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    /* border: none; */
+    /* display: flex; */
+
+}
+
+#first-line .sub-menu img{
+    width: 35px;
+}
+
+#dropdownMenuLink{
+    border: none;
+    background: none;
+}
+
+.dropdown-menu{
+    border-radius: 0px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-item{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.dropdown-item:focus {
+    background-color: orangered;
+}
+
+#first-line #logo{
+    width: 250px;
+    height: 120px;
+    background: url(../content/logobranca2.png) no-repeat center;
+    background-size: 210px;
+    /* border: 1px solid red; */
+    display: block;
+    text-indent: -9999px;
+}
+
+#first-line #persona{
+    margin-right: 40px;
+    width: 240px;
+    /* border: 1px solid red; */
+    padding-left: 50px;
+    /* box-sizing: border-box; */
+}
+
+#persona #icons {
+    width: 80px;
+    /* border: 1px solid red; */
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#persona #icons a {
+    color: white;
+}
+
+#persona #icons a:hover {
+    color: orangered;
+}
+
+
+#first-line #persona #text-persona a {
+    color: white;
+    font-size: 10px;
+    float: right;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+}
+
+#first-line #persona #text-persona a:hover {
+    color: orangered;
+}
+
+
+/* SECOND LINE */
+
+#header-navigation{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#header-navigation ul li{
+    display: inline-block;
+}
+
+#header-navigation ul li a{
+    line-height: 50px;
+    padding: 14px 30px;
+    color: black;
+    font-size: 17px;
+}
+
+#header-navigation ul li a:hover{
+    background-color: #b8b8b8;
+}
+
+/* ------------------- MAIN CONTENT ------------------- */
+
+#main-content{
+    height: 550px;
+    background: #b8b8b8 url(../content/ImagemPrincipal.png) no-repeat fixed;
+    background-position: top;
+    background-size: auto;
+    text-align: center;
+}
+
+#search{
+    margin-top: 50px;
+    height: 50px;
+    width: 450px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 25px;
+    background: #f7f7f7 url(../content/lupa.png) no-repeat left center;
+    background-size: 20px;
+    border-left: 15px solid #f7f7f7;
+}
+
+#main-btn{
+    margin-top: 170px;
+}
+
+#main-content #main-btn a{
+    font-size: 26px;
+    line-height: 50px;
+    color: white;
+    padding: 12px 15px 12px 55px;
+    margin: 0 30px;
+    border-radius: 25px;
+    border: 2.5px solid white;
+    letter-spacing: 3px;
+    background: url(../content/seta-branca.png) no-repeat left;
+    background-size: 45px;
+}
+
+#main-content #main-btn a:hover{
+    color: black;
+    background: white url(../content/seta-preta.png) no-repeat left;
+    background-size: 45px;
+    transition: background 1s;
+}
+
+#main-content #main-btn a#different-btn{
+    color: black;
+    background: white url(../content/seta-preta.png) no-repeat left;
+    background-size: 45px;
+}
+
+#main-content #main-btn a#different-btn:hover {
+    color: white;
+    background: black url(../content/seta-branca.png) no-repeat left;
+    background-size: 45px;
+    transition: background 1s;
+}
+
+#main-content p{
+    color: white;
+    margin-top: 40px;
+    width: 600px;
+    display: inline-block;
+}
+
+/* ------------------- FRAME 1 ------------------- */
+#frame-1{
+    padding: 90px 0 40px 0;
+    width: 100%;
+    height: 770px;
+    text-align: center;
+    /* background-color: #ededed; */
+    background: url(../content/background.png);
+    /* border: 1px solid red; */
+}
+
+#frame-1 h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#show-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+
+.show-box{
+    height: 500px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: black url(../content/exemplo.png) center no-repeat;
+    background-size: cover;
+    border: 5px solid whitesmoke;
+}
+
+.show-box p{
+    margin-top: 330px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.show-box a{
+    padding: 8px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2.5px solid black;
+}
+
+.show-box a:hover{
+    border: solid 2.5px orangered;
+}
+
+/* ------------------- FRAME 2 ------------------- */
+
+#frame-2 {
+    /* padding: 90px 0; */
+    width: 100%;
+    height: 720px;
+    text-align: center;
+    background: url(../content/background.png);
+}
+
+#frame-2 .division{
+    height: 50px;
+    background: url(../content/divisao.png) top no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+#frame-2 #light {
+    height: 200px;
+    width: 200px;
+    /* background: url(../content/light2.png) center no-repeat; */
+    background-size: contain;
+    z-index: 2;
+    margin-top: -40px;
+    margin-left: 50px;
+    animation: light;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#frame-2 h3{
+    /* font-family: 'Amatic SC', cursive; */
+    font-size: 70px;
+    /* margin-top: -20px; */
+    line-height: 65px;
+    font-weight: bold;
+}
+
+#frame-2 p{
+    max-width: 480px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    line-height: 20px;
+}
+
+#frame-2 a {
+    padding-left: 18px;
+    max-width: 480px;
+    background: url(../content/seta-preta.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: -9px;
+    color: black;
+}
+
+#frame-2 a:hover{
+    color: orangered;
+}
+
+#frame-2 .text-frame{
+    float: left;
+    /* width: 550px; */
+    margin-left: 190px;
+    margin-top: -20px;
+    text-align: left;
+}
+
+#frame-2 #show-2{
+    float: right;
+    height: 550px;
+    width: 550px;
+    margin-right: 190px;
+    margin-top: -124px;
+    margin-bottom: 36px;
+}
+
+#frame-2 #show-2 .grade-img {
+    float: left;
+    width: 265px;
+    height: 265px;
+    background-color: black;
+    margin: 5px;
+}
+
+
+#frame-2 #show-2 img{
+    width: 100%;
+}
+
+#frame-2 .division-2 {
+    height: 50px;
+    background: url(../content/divisao2.png) bottom no-repeat;
+    background-size: contain;
+}
+
+/* ------------------- FRAME 3 ------------------- */
+
+/* FORMULARIO BOX */
+#frame-3 {
+    width: 100%;
+    height: 750px;
+    text-align: left;
+    background: url(../content/background.png);
+}
+
+#frame-3 div.form{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#frame-3 form{
+    padding-top: 30px;
+    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#frame-3 label {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#frame-3 h3{
+    margin-left: 190px;
+    margin-top: 125px;
+    font-size: 53px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#frame-3 p{
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 190px;
+    line-height: 20px;
+}
+
+#frame-3 h3 span{
+    display: block;
+}
+
+#frame-3 h3 span.line-2{
+    color: orangered;
+}
+
+#frame-3 input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+#frame-3 input:focus {
+    background-color: black;
+    color: orangered;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+#frame-3 form [type="submit"] {
+    width: 50%;
+    background-color: rgb(17, 1, 31);
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#frame-3 form [type="submit"]:hover {
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    transition: 0.3s;
+}
+
+/* INSTAGRAM BOX */
+#frame-3 .box-instagram {
+    /* border: 1px solid red; */
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding-left: 12.5%;
+}
+
+#frame-3 .box-instagram .content-instagram{
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+#frame-3 .box-instagram .div-logo{
+    width: 100%;
+    /* border: 1px solid green; */
+    /* background: url(../content/logopreta.png) no-repeat;
+    background-position: top center;
+    background-size: 100px; */
+    margin-top: 105px;
+    text-align: center;
+}
+
+#frame-3 .box-instagram h4 {
+    font-size: 30px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+#frame-3 .box-instagram .div-logo p {
+    margin: 0 auto;
+    margin-top: -7px;
+    font-weight: bold;
+}
+
+#frame-3 .div-carousel p {
+    margin: 0 auto;
+}
+
+
+#frame-3 .box-instagram p .hashtag{
+    color: orangered;
+    margin-right: 1px;
+}
+
+
+#frame-3 .box-instagram .carousel{
+    max-width: 100%;
+    /* margin: 0 auto; */
+    border: 2px solid white;
+    margin-top: 15px;
+}
+
+.perfil-instagram a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.perfil-instagram a:hover {
+    color: orangered;
+}
+
+/* ------------------- FOOTER ------------------- */
+
+footer{
+    clear: both;
+    height: 200px;
+    background: #ededed url(../content/fundoPreto.png);
+    background-size: 145px;
+    padding-top: 30px;
+    min-width: 100%;
+}
+
+footer .logo-footer{
+    background: url(../content/logobranca2.png) no-repeat top left;
+    background-size: 30%;
+    width: 30%;
+    margin-left: 190px;
+    padding-top: 80px;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+footer .logo-footer p{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+
+/* LOGIN AND SIGIN */
+
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+#login-form ::-webkit-input-placeholder {
+    font-size: 12px;
+}
+
+#user-container{
+    width: 100vw;
+    max-width: 1600px;
+    background: url(../content/background.png);
+    padding: 0;
+    margin: 0;
+}
+
+#user-container h3{
+    font-size: 40px;
+}
+
+#user-container label{
+    font-weight: bolder;
+}
+
+#user-container button{
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+#user-container button:hover{
+    background-color: rgb(222, 60, 2);
+}
+
+p{
+    font-weight: bolder;
+}
+
+.register{
+    color: orangered;
+}
+
+.register:hover{
+    color: rgb(222, 60, 2);
+}
+
+#sign-page #user-container{
+    padding-bottom: 150px;
+}
+
+/* Products page */
+
+.products-section{
+    background: url(../content/background.png);
+}
+
+.order-by{
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.order-by button{
+    background-color: rgb(17, 1, 31);
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.order-by button:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.3s;
+}
+
+.order-by select{
+    padding: 4px;
+}
+
+/* blocked links */
+.blocked{
+    cursor: not-allowed;
+}
+
+/* NORMAL USER PAGE */
+
+.menu-user{
+    padding: 0;
+    margin: 0;
+    min-height: 700px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#profile-page .card{
+    border-radius: 0;
+}
+
+button.button-normal-user{
+    background-color: rgb(247, 247, 247) !important;
+    color: black !important;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+#user-container{
+    max-width: 100%;
+}
+
+.menu-user h4{
+    text-align: center;
+    padding: 40px;
+}
+
+#profile-page table{
+    font-size: 14px;
+}
+
+.menu-user form{
+    width: 40%;
+}
+
+.menu-user form select{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.menu-user form select, .menu-user form input{
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: normal;
+}   
