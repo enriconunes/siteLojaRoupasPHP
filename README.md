@@ -4,7 +4,7 @@ Projeto pessoal e autoral de uma loja de roupas feito em PHP
 Com este projeto, consegui colocar em prática conhecimentos em:
 <ul>
   <h5>Back-end</h5>
-  <li>Manipulação de banco de dados MySQL/MariaDB - CRUD</li>
+  <li>Manipulação de banco de dados MySQL - CRUD</li>
   <li>Sistema de autenticação com formulário de login</li>
   <li>Proteção de passwords com SHA256</li>
   <li>Utilização de variável de sessão para proteção de páginas privadas e diferenciação de perfis (usuário comum e administrador)</li>
