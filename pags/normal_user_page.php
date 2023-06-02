@@ -107,7 +107,122 @@ if ((!isset($_SESSION['email'])) and (!isset($_SESSION['autenticado']))) {
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <!-- SHOPPING CART -->
+
+                                <div class="px-4 px-lg-0">
+
+                                    <div class="pb-5">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+
+                                                    <!-- Shopping cart table -->
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col" class="border-0 bg-light">
+                                                                        <div class="p-2 px-3 text-uppercase">Produto</div>
+                                                                    </th>
+                                                                    <th scope="col" class="border-0 bg-light">
+                                                                        <div class="py-2 text-uppercase">Preço</div>
+                                                                    </th>
+                                                                    <th scope="col" class="border-0 bg-light">
+                                                                        <div class="py-2 text-uppercase">Quantidade</div>
+                                                                    </th>
+                                                                    <th scope="col" class="border-0 bg-light">
+                                                                        <div class="py-2 text-uppercase">Remover</div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th scope="row" class="border-0">
+                                                                        <div class="p-2">
+                                                                            <img src="https://imageswscdn.wslojas.com.br/files/24465/MED_calca-cargo-sarja-fire-reta-especial-marrom-647294.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                                            <div class="ml-3 d-inline-block align-middle" style="margin-left: 3%;">
+                                                                                <h5 class=" mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Calça Cargo Marrom</a></h5><span class="text-muted font-weight-normal font-italic d-block">Tamanho: M</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </th>
+                                                                    <td class="border-0 align-middle"><strong>€69.00</strong></td>
+                                                                    <td class="border-0 align-middle"><strong>1</strong></td>
+                                                                    <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">
+                                                                        <div class="p-2">
+                                                                            <img src="https://images.tcdn.com.br/img/img_prod/1032302/touca_gorro_marinheiro_preto_com_pompom_chronic_limitada_2443_1_e1618fac8213903063b1d639cb684518.jpeg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                                            <div class="ml-3 d-inline-block align-middle" style="margin-left: 3%;">
+                                                                                <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Touca Preta</a></h5><span class="text-muted font-weight-normal font-italic">Tamanho: Tamanho único</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </th>
+                                                                    <td class="align-middle"><strong>€19.99</strong></td>
+                                                                    <td class="align-middle"><strong>2</strong></td>
+                                                                    <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">
+                                                                        <div class="p-2">
+                                                                            <img src="https://img.freepik.com/fotos-gratis/homem-elegante-bonito-com-roupa-urbana_1303-17744.jpg?w=360&t=st=1682975643~exp=1682976243~hmac=bb7ae55e72903a5f5ecf08634b2097269cd9f7d85c39c527113147d7f6100bfc" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                                            <div class="ml-3 d-inline-block align-middle" style="margin-left: 3%;">
+                                                                                <h5 class=" mb-0"> <a href="#" class="text-dark d-inline-block">Óculos Vintage Preto</a></h5><span class="text-muted font-weight-normal font-italic">Tamanho: Tamanho único</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    <td class="align-middle"><strong>€29.59</strong></td>
+                                                                    <td class="align-middle"><strong>1</strong></td>
+                                                                    <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <!-- End -->
+                                                </div>
+                                            </div>
+
+                                            <div class="row py-5 p-4 bg-white rounded shadow-sm">
+                                                <div class="col-lg-6">
+                                                    <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Cupom de desconto</div>
+                                                    <div class="p-4">
+                                                        <p class="font-italic mb-4">Insira aqui o seu cupom de desconto.</p>
+                                                        <div class="input-group mb-4 border rounded-pill p-2">
+                                                            <input type="text" placeholder="Apply coupon" aria-describedby="button-addon3" class="form-control border-0">
+                                                            <div class="input-group-append border-0">
+                                                                <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-4" style="margin-right: 5px;"></i>Adicionar cupom</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Informações adicionais</div>
+                                                    <div class="p-4">
+                                                        <p class="font-italic mb-4">Se você precisar nos passar alguma informação sobre o pedido, insira aqui.</p>
+                                                        <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Resumo da compra </div>
+                                                    <div class="p-4">
+                                                        <p class="font-italic mb-4">Os custos adicionais são calculados com base nos valor total da compra.</p>
+                                                        <ul class="list-unstyled mb-4">
+                                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Subtotal </strong><strong>€105.58</strong></li>
+                                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Valor da entrega</strong><strong>€0.00</strong></li>
+                                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Taxa</strong><strong>€0.00</strong></li>
+                                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+                                                                <h5 class="font-weight-bold">€105.58</h5>
+                                                            </li>
+                                                        </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block" style="width: 100%;">Checkout</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <span>*Este carrinho de compras é ilustrativo e possui o conteúdo fixo.</span>
+                                </div>
+
+                                <!-- END SHOPPING CART -->
                             </div>
                         </div>
                     </div>

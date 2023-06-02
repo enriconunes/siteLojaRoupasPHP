@@ -57,7 +57,7 @@ session_start();
                             <!-- <img src="./content/Favorito.png" alt="" id="fav-icon"> -->
                             <i class="fas fa-heart blocked"></i>
                         </a>
-                        <a href="#">
+                        <a href="./pags/normal_user_page.php">
                             <!-- <img src="./content/Compra.png" alt="" id="bag-icon"> -->
                             <i class="fas fa-shopping-cart"></i>
                         </a>

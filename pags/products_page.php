@@ -85,9 +85,9 @@ $result = $conexao->query($sql);
                 <div id="icons">
                     <a href="#">
                         <!-- <img src="./content/Favorito.png" alt="" id="fav-icon"> -->
-                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-heart blocked"></i>
                     </a>
-                    <a href="#">
+                    <a href="../pags/normal_user_page.php">
                         <!-- <img src="./content/Compra.png" alt="" id="bag-icon"> -->
                         <i class="fas fa-shopping-cart"></i>
                     </a>
@@ -151,7 +151,7 @@ $result = $conexao->query($sql);
                     // chamar a API de listagem de produtos usando a função file_get_contents()
                     $url = "http://localhost/PHP_MySql_Projetos/nativos_v2/pags/apis.php/products";
 
-                    if(isset($_GET['order-by'])){
+                    if (isset($_GET['order-by'])) {
                         $url = "http://localhost/PHP_MySql_Projetos/nativos_v2/pags/apis.php/products" . "?order-by=" . $_GET["order-by"];
                     }
 
@@ -183,7 +183,7 @@ $result = $conexao->query($sql);
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer pt-3 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto mb-2" href="#">Adicionar ao carrinho</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto mb-2 blocked" href="#">Adicionar ao carrinho</a></div>
                                 </div>
                             </div>
                         </div>

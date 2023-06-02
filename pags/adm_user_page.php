@@ -165,8 +165,12 @@ $result_products = $conexao->query($query_products);
 
                                         </tbody>
                                     </table>
+
                                 </div>
                                 <!-- end of products list -->
+                                    <div class="card-body">
+                                        <a href="./downloadPDF.php"><button class="btn btn-dark" style="width: 25%;">Descarregar relatório de produtos PDF</button></a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -303,7 +307,7 @@ $result_products = $conexao->query($query_products);
                                 <?php
                                 }
                                 ?>
-                                <a href='./edit_perfil_page.php?id=<?=$_SESSION["user_id"]?>'><button class="btn btn-dark" style="width: 10%;">Editar perfil</button></a>
+                                <a href='./edit_perfil_page.php?id=<?= $_SESSION["user_id"] ?>'><button class="btn btn-dark" style="width: 10%;">Editar perfil</button></a>
                             </div>
                         </div>
                     </div>
