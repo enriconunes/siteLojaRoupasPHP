@@ -8,7 +8,7 @@ Com este projeto, consegui colocar em prática conhecimentos em:
   <li>Sistema de autenticação com formulário de login</li>
   <li>Utilização de variável de sessão para proteção de páginas privadas e diferenciação de perfis (usuário comum e administrador)</li>
   <li>Criação e utilização de APIs para querys (JSON) e inserts no banco de dados</li>
-  <li>Utilização de biblioteca externa para criação e download de um relatório dos produtos em PDF</li>
+  <li>Utilização da biblioteca DomPDF para criação e download de um relatório dos produtos da loja em PDF</li>
   </br>
   <h5>Front-end</h5>
   <li>Utilização de frameworks como Bootstrap (componentes e responsividade) e Font Awesome</li>
