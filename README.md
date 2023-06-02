@@ -18,6 +18,7 @@ Com este projeto, consegui colocar em prática conhecimentos em:
   <li>Adobe Illustrator para a criação de elementos gráficos</li>
 </ul>
 
+</br>
 <h3>Algumas imagens da Aplicação</h3>
 <h4>Frames da Landing Page:</h4>
 </br>
