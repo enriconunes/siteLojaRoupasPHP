@@ -1,4 +1,4 @@
-# site_lojaRoupas_completo_PHP
+# siteLojaRoupasPHP
 Projeto pessoal e autoral de uma loja de roupas feito em PHP
 </br>
 Com este projeto, consegui colocar em prática conhecimentos em:
